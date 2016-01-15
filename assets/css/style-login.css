@@ -1,0 +1,74 @@
+.form-center{
+	margin:0 auto;
+	
+}
+
+.borde{
+	border:1px solid red;
+}
+
+.form-login{
+	width:30%;
+	background:#b4b4b4;
+	border-radius:10px;
+	margin-top:100px;
+	box-shadow:inset 0px 0px 40px rgba(0,0,0,.4),0px 0px 40px rgba(0,0,0,.4);
+}
+
+.form-header{
+	background:rgba(0,0,0,.3);
+	border-radius:10px 10px 0 0;
+	border-bottom:1px solid rgba(0,0,0,.4);
+	
+}
+
+.form-body{
+	border-top:1px solid rgba(255,255,255,.5);
+	padding:40px;
+	padding-top:30px;
+}
+
+.padding-top-20{
+	padding-top:20px;
+}
+
+.margin-top-20{
+	margin-top:20px;
+}
+
+
+
+#login-ok{
+	padding:5px;
+	border:3px solid green;
+	background:#cfcfcf;
+	border-radius:2px;
+}
+
+#login-error{
+	padding:5px;
+	border:3px solid red;
+	background:#cfcfcf;
+	border-radius:2px;
+}
+
+@media (max-width:900px){
+	.form-login{
+		width:50%;
+		margin-top:10px;
+	}
+}
+
+@media (max-width:700px){
+	.form-login{
+		width:70%;
+		margin-top:10px;
+	}
+}
+
+@media (max-width:400px){
+	.form-login{
+		width:90%;
+		margin-top:10px;
+	}
+}

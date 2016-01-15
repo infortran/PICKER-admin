@@ -1,0 +1,378 @@
+aside{
+	height:547px;
+	border-right:1px solid #bfbfbf;
+	margin:0;
+	padding:0;
+	background:#dfdfdf;
+}
+
+td{
+	margin-top:12px;
+}
+
+.hover-pointer:hover{
+	cursor:pointer;
+}
+
+.display-none{
+	display:none;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.btn-div-aside{
+	padding:10px;
+	color:#0088cc;
+	margin-top:20px;
+
+}
+
+.btn-div-aside a{ 
+	text-decoration:none;
+}
+
+.btn-div-selected{
+	background:#0088cc;
+	border-radius:8px;
+	cursor:pointer;
+}
+
+.btn-div-selected a{
+	color:#FFF;
+	text-decoration:none;
+}
+
+section{
+	
+	
+}
+
+article{
+	height:200px;
+	width:100%;
+	border:1px solid red;
+}
+
+.titulo-tienda{
+	font-size:25px;
+	padding:8px;
+	background:#afafaf;
+	width:100%;
+	color:#fff;
+}
+
+.scrollable{
+	height:530px;
+	overflow:auto;
+}
+
+.nopadding{
+	padding:0 !important;
+	
+}
+
+#div-no-tienda img{
+	width:100%;
+	height:100%;
+}
+
+.img-miniatura-preview{
+	width:200px;
+	height:200px;
+	box-shadow:0px 0px 20px rgba(0,0,0,.6);
+}
+
+.img-miniatura-preview img{
+	width:200px;
+	height:200px;
+}
+
+.border-shadow{
+	box-shadow:0px 0px 20px rgba(0,0,0,.6);
+	margin-top:20px;
+	padding:30px;
+}
+
+.center-div{
+	margin:20px auto;
+}
+
+.div-cuenta{
+	border-radius:5px;
+}
+
+.img-cuenta{
+	width:119px;
+	height:119px;
+}
+
+.img-cuenta img{
+	width:119px;
+	height:119px;
+}
+
+.btn-margin-left{
+	margin-left:8px;
+}
+
+.miniatura{
+	width:80px;
+	height:80px;
+	box-shadow:0px 0px 5px rgba(0,0,0,.3);
+}
+
+.miniatura img{
+	width:80px;
+	height:80px;
+}
+
+.btn-mismo-width{
+	width:120px;
+}
+
+.margin-top-5{
+	margin-top:5px;
+}
+
+.margin-top-10{
+	margin-top:10px;
+}
+
+.margin-top-15{
+	margin-top:15px;
+}
+
+.margin-top-20{
+	margin-top:20px;
+}
+.margin-top-25{
+	margin-top:25px;
+}
+.margin-top-30{
+	margin-top:30px;
+}
+.margin-top-35{
+	margin-top:35px;
+}
+.margin-top-40{
+	margin-top:40px;
+}
+
+.campo-ok{
+	padding:5px;
+	border:3px solid green;
+	background:#cfcfcf;
+	border-radius:2px;
+}
+
+.campo-error{
+	display:none;
+	padding:5px;
+	border:3px solid red;
+	background:#cfcfcf;
+	border-radius:2px;
+}
+
+.borde{
+	border:1px solid red;
+}
+
+.img-trabajador{
+	width:150px;
+	height:150px;
+}
+
+.img-trabajador img{
+	width:150px;
+	height:150px;
+}
+
+.margin-top-5{
+	margin-top:5px;
+}
+
+.btn-full{
+	width:100%;
+}
+
+.div-image-trabajador{
+	width:300px;
+	height:300px;
+}
+
+.div-image-trabajador img{
+	width:298px;
+	height:298px;
+	
+}
+
+.margin-10{
+	margin:10px;
+}
+
+.upload-contenedor{
+	
+	border-radius:5px;
+	margin-top:10px;
+	height:40px;
+	
+	background:url('../img/btn-subir-img.png') no-repeat;
+}
+
+.upload-contenedor:hover{
+	
+	background:url('../img/btn-subir-img-hover.png') no-repeat;
+}
+
+.upload-contenedor input{
+	filter: alpha(opacity=0);
+	opacity:0;
+	height:40px;
+
+}
+
+.upload-contenedor span{
+
+	margin-top:10px;
+	margin-left:5px;
+	color:#FFF;
+	cursor:pointer;
+}
+
+.no-decoration{
+	text-decoration:none;
+}
+
+.no-decoration a{
+	text-decoration:none;
+}
+
+.cabecera-agregar-producto{
+	width:100%;
+}
+
+.padding-10{
+	padding:10px;
+}
+
+.fondo-gris-claro{
+	background:#cfcfcf;
+}
+
+.height-300{
+	height:300px;
+}
+.height-500{
+	height:500px;
+}
+.height-700{
+	height:700px;
+}
+
+.margin-5{
+	margin:5px;
+}
+
+.margin-10{
+	margin:10px;
+}
+
+.margin-15{
+	margin:15px;
+}
+
+.margin-20{
+	margin:20px;
+}
+
+.margin-25{
+	margin:25px;
+}
+
+.modulo-kpi{
+	margin-right:5px;
+	margin-bottom:35px;
+	border:1px solid #dfdfdf;
+}
+
+.resumenes{
+	padding:5px;
+	background:#afafaf;
+	border-bottom:2px solid #dfdfdf;
+}
+
+.nro-resumenes{
+	color:#fff;
+	font-size:40px;
+	text-shadow:2px 2px 2px #4f4f4f;
+}
+
+.radius{
+	border-radius:10px 10px 0px 0px;
+}
+
+.fondo-picker{
+	background:linear-gradient(#0f1d41,#79dea7);
+	height:100%;
+}
+.white-text{
+	color:white;
+}
+
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.margin-bottom-5{
+	margin-bottom:5px;
+}
+
+.margin-bottom-10{
+	margin-bottom:10px;
+}
+
+.margin-bottom-15{
+	margin-bottom:15px;
+}
+
+.margin-bottom-20{
+	margin-bottom:20px;
+}
+
+.margin-bottom-25{
+	margin-bottom:25px;
+}
+
+.margin-bottom-30{
+	margin-bottom:30px;
+}
+
+.margin-bottom-35{
+	margin-bottom:35px;
+}
+
+.margin-bottom-40{
+	margin-bottom:40px;
+}
+
+.margin-bottom-45{
+	margin-bottom:45px;
+}
+
+.margin-bottom-50{
+	margin-bottom:50px;
+}
+
+.margin-bottom-100{
+	margin-bottom:100px;
+}
+
