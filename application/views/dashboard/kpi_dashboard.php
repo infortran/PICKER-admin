@@ -54,42 +54,37 @@
 						<span class="glyphicon glyphicon-refresh pull-right" aria-hidden="true"></span>
 					</div>
 				</div>
+
+				<!--GRAFICO KPI-->
 				<div class="col-sm-12">
 					
-					<div id="canvas-holder">
-						<canvas id="chart-area" width="750" height="300"></canvas>
-					</div>
-					
-					<script type="text/javascript">var data = {
-							labels: ["1", "7", "15", "24", "30",],
-							datasets: [
-							{
-								label: "My First dataset",
-								fillColor: "rgba(220,220,220,0.2)",
-								strokeColor: "rgba(220,220,220,1)",
-								pointColor: "rgba(220,220,220,1)",
-								pointStrokeColor: "#fff",
-								pointHighlightFill: "#fff",
-								pointHighlightStroke: "rgba(220,220,220,1)",
-								data: [65, 59, 80, 81, 56]
-							},
-							{
-								label: "My Second dataset",
-								fillColor: "rgba(151,187,205,0.2)",
-								strokeColor: "rgba(151,187,205,1)",
-								pointColor: "rgba(151,187,205,1)",
-								pointStrokeColor: "#fff",
-								pointHighlightFill: "#fff",
-								pointHighlightStroke: "rgba(151,187,205,1)",
-								data: [28, 48, 40, 19, 86]
-							}
-							]
-};
-						var ctx = document.getElementById("chart-area").getContext("2d");
-						window.myPie = new Chart(ctx).Line(data);
-					</script>
-					
-
+					<div id="chart-container" style="width:100%;height:400px"></div>
+					<script>
+					$(function(){
+							$('#chart-container').highcharts({
+								chart:{
+									type:'bar'
+								},
+								title:{
+									text:'Ventas'
+								},
+								xAxis:{
+									categories: ['Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre', 'Enero']
+								},
+								yAxis:{
+									title:{
+										text: 'Ventas en miles de pesos'
+									}
+								},
+								series: [{
+									name:'Ventas Picker',
+									data:[260000,350000,520000,600000,620000,630000]
+								}, {
+									name:'Ventas normales',
+									data:[100000,150000,250000,220000,180000,120000]
+								}]
+							});
+						});</script>
 				</div>
 					
 				

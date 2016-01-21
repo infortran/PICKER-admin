@@ -62,13 +62,13 @@ class Pickerprobador extends CI_Controller {
 			default: echo json_encode(array('valid'=>'err_unk'));
 		}
 	}
-
+	//comentario
 	public function verificar_producto_inicial(){
 		$id_tienda = $this->input->post('id_tienda');
 		$cod_probador = $this->input->post('id_probador');
 
-		//$id_tienda = '7';
-		//$cod_probador = 'PRO007';
+		//$id_tienda = '1';
+		//$cod_probador = 'PRO001';
 
 		$probador_seleccionado = $this->Pprobador_model->get_probador_by_cod($cod_probador, $id_tienda);
 
